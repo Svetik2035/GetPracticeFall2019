@@ -29,9 +29,9 @@ public class VerifyThatElementIsGone {
         //if(list.size() == 0{ -->the same thing as below
 
         if(driver.findElements(By.id("disappearing_button")).size() == 0){
-            System.out.println("TEST PASSED");
+            System.out.println("TEST PASSED!");
         }else {
-            System.out.println("TEST FAILED");
+            System.out.println("TEST FAILED!");
         }
 
         Thread.sleep(2000);
