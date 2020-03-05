@@ -18,7 +18,7 @@ public class MyFirstSeleniumScript {
        WebDriverManager.firefoxdriver().setup();
         FirefoxDriver driver1 = new FirefoxDriver();
         driver.get("http://firefox.com");
-        System.out.println("Yey, it worked!!!");
+
 
 
     }
